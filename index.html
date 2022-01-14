@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WEGOPLAY</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Lato:wght@300;400;900&family=Yuji+Boku&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./css/styleindex.css">
+</head>
+<body class="body">
+    <div class="grid__general">
+        <header class="header color-change-2x">
+            <h1 class="header__h1">Unite o crea encuentros deportivos!</h1>
+            <a class="header__logo" href="../index.html"><img src="./img/logo-negro.png" alt="logo wegoplay"></a>
+            <nav class="header__nav">
+                <ul class="header__navul">
+                    <li><a href="#">INICIO</a></li>
+                    <li><a href="./carpeta/crear-juegos.html">CREAR JUEGOS</a></li>
+                    <li><a href="./carpeta/unirte-a-juegos.html">UNIRTE A JUEGOS</a></li>
+                    <li><a href="./carpeta/buscar-clubes.html">BUSCAR CLUBES</a></li>
+                    <li><a href="./carpeta/crear-clubes.html">CREAR CLUBES</a></li>
+                </ul>
+            </nav>
+        </header><!--Aqui termina HEADER-->
+        <main class="main">
+            <section class="main__buscador">
+                <div>
+                    <form class="boton__busquedamain" action="#" method="get">
+                    <input type="text" placeholder="Buscar por deporte">
+                    <input type="submit" value="Buscar">
+                    </form>
+                </div>
+            </section><!--BUSCADOR DEPORTES-->
+            <section class="crearjuego">
+                <div class="crearjuego__info" data-aos="flip-right" data-aos-delay="300">
+                    <h2>Crea un juego!</h2>
+                    <h3>Cientos de usuarios buscando juegos para unirse!</h3>
+                    <p> Elegi fecha, cantidad de jugadores, nivel, sexo y crea juegos en tu ciudad para conocer gente practicando tu deporte favorito.</p>
+                </div>
+                     <div class="crearjuego__imagenes" data-aos="flip-right" data-aos-delay="300">
+                        <img class="futbol" src="./img/futbol.jpeg" alt="">
+                        <img class="tenis" src="./img/tenis.jpeg" alt="">
+                        <img class="padel" src="./img/padel.jpeg" alt="">
+                    </div><!--imagenes deportes-->
+                <div class="botoncrear">
+                    <div class="crearjuego__boton color-change-2x">
+                        <a href="./carpeta/crear-juegos.html">CREAR JUEGO</a>
+                    </div> <!--boton crear juego-->
+                 </div>
+            </section> <!--Aqui termina CREAR JUEGO-->
+            <section class="unitejuego">
+                <div class="unitejuego__info" data-aos="flip-right" data-aos-delay="300">
+                    <h2>Unite a un juego!</h2>
+                    <h3>Cientos de juegos para unirse y conocer gente practicando deporte!</h3>
+                    <p>Busca por nombre del juego o filtra segun tus preferencias.</p>
+                </div>
+                <div class="unitejuego__imagenes" data-aos="flip-right" data-aos-delay="300">
+                    <img class="basquet" src="./img/basquet.jpeg" alt="">
+                    <img class="tenis2" src="./img/tenis2.jpeg" alt="">
+                    <img class="futbol2" src="./img/futbol3.jpeg" alt="">
+                </div><!--imagenes deportes-->
+                <div class="botonunirse">
+                    <div class="unitejuego__boton color-change-2x">
+                        <a href="./carpeta/unirte-a-juegos.html">UNIRTE A JUEGOS</a>
+                    </div><!--boton unirte a juego-->
+                </div>
+                </section> <!--Aqui termina UNITE A JUEGO-->
+        </main><!--Aqui termina MAIN-->
+        <footer class="footer">
+            <p class="footer__registrado"> &copy; WEGOPLAY Todos los derechos reservados 2021</p>
+            <nav class="footer__nav">
+                <ul class="footer__navul">
+                    <li><a href="#">INICIO</a></li>
+                    <li><a href="./carpeta/crear-juegos.html">CREAR JUEGOS</a></li>
+                    <li><a href="./carpeta/unirte-a-juegos.html">UNIRTE A JUEGOS</a></li>
+                    <li><a href="./carpeta/buscar-clubes.html">BUSCAR CLUBES</a></li>
+                    <li><a href="./carpeta/crear-clubes.html">CREAR CLUBES</a></li>
+                </ul>
+            </nav>
+        </footer><!--Aqui termina el FOOTER-->
+    </div>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>  
+</body>
+</html>

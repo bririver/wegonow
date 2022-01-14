@@ -1,0 +1,257 @@
+
+.grid__general{
+    display: grid;
+    grid-template-areas: header main footer
+}
+a{
+    text-decoration: none;
+}
+.header{
+    background: rgb(255,169,119);
+    background: -moz-linear-gradient(90deg, rgba(255,169,119,1) 0%, rgba(255,255,255,1) 100%);
+    background: -webkit-linear-gradient(90deg, rgba(255,169,119,1) 0%, rgba(255,255,255,1) 100%);
+    background: linear-gradient(90deg, rgba(255,169,119,1) 0%, rgba(255,255,255,1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#ffa977",endColorstr="#ffffff",GradientType=1);
+    background-color: salmon;
+    width: 100%;
+    margin: 0%;
+    padding: 0%;
+}
+.color-change-2x {
+	-webkit-animation: color-change-2x 2s linear infinite alternate both;
+	        animation: color-change-2x 2s linear infinite alternate both;
+}
+@-webkit-keyframes color-change-2x {
+    0% {
+      background:rgba(255,169,119,1);
+    }
+    100% {
+      background:rgba(255,255,255,1);
+    }
+  }
+  @keyframes color-change-2x {
+    0% {
+      background: rgba(255,169,119,1);
+    }
+    100% {
+      background:rgba(255,255,255,1);
+    }
+  }
+  
+.header__h1{
+    display: flex;
+    justify-content: center;
+    font-family: Bebas Neue;  
+    padding: 0%;
+    margin: 0%;
+}
+.header__logo{
+    padding: 0%;
+    margin: 0%;
+    display: flex;
+    justify-content: center;
+    transition: all 1s;
+}
+.header__logo:hover{
+    transform: scale(1.2);
+}
+.header__nav{
+
+    gap: 5px;
+    margin: 0%;
+    padding: 0%;
+    background-color: rgb(0, 0, 0);
+    width: 100%;
+}
+.header__navul{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    margin-left: 10px;
+    margin-right: 40px;
+    list-style: none;
+    font-family: Bebas Neue;
+}
+.header__nav li a{
+    color: rgb(255, 255, 255);
+}
+.header__nav li a:hover{
+    color: rgb(0, 0, 0);
+    background-color: white;
+    border-radius: 4px;
+    padding: 4px;
+}
+.main__buscador{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 0px;
+    margin: 0%;
+    padding-top: 30px;
+}
+.crearjuego{
+    font-family: Bebas Neue;
+    width: 100%;
+    padding: 0%;
+    margin: 0%;
+}
+.crearjuego__info{
+    display: flex;
+    flex-direction: column;
+    padding-top: 30px;
+    width: 100%;
+}
+.crearjuego__imagenes{
+    margin: 0%;
+    padding: 0%;
+   width: 100%;
+  
+}
+.crearjuego__boton{
+    display: flex;
+    flex-wrap: wrap;
+    background-color: salmon;
+    width: 100px;
+    font-family: Bebas Neue;
+    padding: 10px;
+    border-radius: 10%;
+    display: flex;
+    justify-content: center; 
+    margin-top: 30px;
+}
+.crearjuego__boton  a{
+    color: rgb(255, 255, 255);
+}       
+.botoncrear{
+    display: flex;
+    justify-content: center;
+}
+.unitejuego{
+    font-family: Bebas Neue;
+    width: 100%;
+    padding: 0%;
+    margin: 0%;
+}
+.unitejuego__info{
+    display: flex;
+    flex-direction: column;
+    padding-top: 30px;
+    width: 100%;
+}
+.unitejuego__imagenes{
+    margin: 0%;
+    padding: 0%;
+   width: 100%;
+  
+}
+.unitejuego__boton{
+    display: flex;
+    flex-wrap: wrap;
+    background-color: salmon;
+    width: 100px;
+    font-family: Bebas Neue;
+    padding: 10px;
+    border-radius: 10%;
+    display: flex;
+    justify-content: center;  
+    margin-top: 30px; 
+}
+.unitejuego__boton a {
+    color: white;
+}
+.botonunirse{
+    display: flex;
+    justify-content: center;
+}
+.footer{
+    background-color: rgb(0, 0, 0);
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 100%;
+    margin-top: 50px;
+}
+.footer__registrado{
+    color: rgb(255, 255, 255);
+    padding: 30px;
+    margin: 0%;
+}
+.footer__nav{
+    font-family:Bebas Neue ;
+    list-style: none;
+    padding: 0%;
+    margin: 0%;
+    width: 100%;
+}
+.footer li a{
+    color: rgb(255, 255, 255);
+}
+.footer__navul{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin: 0px;
+    width: 100%;
+    padding: 0%;
+    list-style: none;
+}
+
+/* MEDIA QUERIES - RESPONSIVE - ESTILOS MOVIL */
+
+@media screen and (max-width: 768px) {
+    .header__h1{
+        display: flex;
+        text-align: center;
+        font-family: Bebas Neue;  
+        padding: 0%;
+        margin: 0%;
+    }
+   
+    .header__navul{
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        margin: 0%;
+        padding: 0%;
+    }
+    .crearjuego__imagenes{
+        display: flex;
+        flex-wrap: wrap;
+        gap: 2px;
+        justify-content: center;
+    }
+   .crearjuego__imagenes img{
+       width: 100%;
+   }
+   .unitejuego__imagenes{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2px;
+    justify-content: center;
+   }
+   .unitejuego__imagenes img{
+    width: 100%;
+   }
+   .footer__navul{
+    display: flex;
+    flex-direction: column;
+    gap: 0px;
+    text-align: center;
+}
+}
+
+/* MEDIA QUERIES - RESPONSIVE - ESTILOS DESKTOP */
+
+@media screen and (min-width: 768px) {
+    .crearjuego__imagenes{
+        display: flex;
+        gap: 2px;
+        justify-content: center;
+    }
+       .crearjuego__imagenes img{
+        width: 33%;
+    }
+    .unitejuego__imagenes img{
+        width: 33%;
+    }
+}

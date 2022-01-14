@@ -1,0 +1,98 @@
+a{
+    text-decoration: none;
+}
+.headercrearjuegos__h1{
+    font-family: Bebas Neue;  
+    text-align: center;
+    padding: 0%;
+    margin: 0%;
+}
+ul{
+    display: flex;
+    justify-content: center;
+    margin: 0%;
+    padding: 0%;
+    background-color: black;
+    width: 100%;
+    text-decoration: none;
+}
+ul li{
+    margin: 10px;
+padding: 1px;
+list-style: none;
+font-family: Bebas Neue;
+background-color: rgb(0, 0, 0);
+width: 100%;
+text-align: center;
+}
+ul li a{
+    color: white;
+    display: inline-block;
+}
+.sectionunirtejuegos{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    flex-direction: column;
+    gap: 5px;
+    font-size: 14px;
+    font-family:Bebas Neue ;
+     background-color:salmon;
+     margin: 2%;
+     padding: 5%;
+     height:410px;
+     color: rgb(255, 255, 255);
+     border-radius: 10px;
+}
+.sectionunirteajuegos__form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 5px;
+}
+.unirtejuegosboton{
+    display: flex;
+    justify-content: center;
+    padding-bottom: 30px;
+}
+.footerunirtejuegos{
+    background-color: rgb(0, 0, 0);
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    flex-wrap: wrap;
+}
+.footerunirtejuegos__nav{
+    display: flex;
+    justify-content: space-between;
+    font-family:Bebas Neue ;
+    list-style: none;
+    padding: 10px;
+    margin: 0%;
+}
+footer li a{
+    color: rgb(255, 255, 255);
+}
+.footerunirtejuegos__registrado{
+    color: rgb(255, 255, 255);
+    padding: 30px;
+    margin: 0%;
+}
+
+/* MEDIA QUERIES - RESPONSIVE - ESTILOS MOVIL */
+
+@media screen and (max-width: 768px) {
+    .headerunirteajuegos__logo{
+        display: flex;
+        justify-content: center;
+    }
+    .sectionunirtejuegos{
+        height: 730px;
+    }
+
+    ul{
+    flex-direction: column;
+    }
+    ul li{
+        margin: 0%;
+    }

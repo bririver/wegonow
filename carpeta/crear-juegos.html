@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TERCERO</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Lato:wght@300;400;900&family=Yuji+Boku&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../css/stylecrearjuegos.css">
+</head>
+<body class="bodycrearjuegos">
+    <header class="headercrearjuegos">
+        <h1 class="headercrearjuegos__h1">CREAR JUEGO</h1>
+        <div class="headercrearjuegos__logo">
+            <img src="../img/logo-negro.png" alt="logo wegoplay">
+        </div>
+        <nav class="headercrearjuegos__nav">
+            <ul class="headercrearjuegos__ul">
+                <li><a href="../index.html">INICIO</a></li>
+                <li><a href="#">CREAR JUEGOS</a></li>
+                <li><a href="./unirte-a-juegos.html">UNIRTE A JUEGOS</a></li>
+                <li><a href="./buscar-clubes.html">BUSCAR CLUBES</a></li>
+                <li><a href="./crear-clubes.html">CREAR CLUBES</a></li>
+            </ul>
+        </nav>
+    </header><!--Aqui termina HEADER DE CREAR JUEGOS-->
+    <section class="sectioncrearjuegos">
+        <form class="sectioncrearjuegos__form" action="#" method="get"></form>
+            <label for="nombrejuego">Ponele un nombre al juego</label>
+            <input type="text" name="nombrejuego" id="nombrejuego">
+            <label for="deportes">Selecciona el deporte</label>
+            <input type="radio" name="deportes" id="deportes">FUTBOL 5 
+            <input type="radio" name="deportes" id="deportes">FUTBOL 8 
+            <input type="radio" name="deportes" id="deportes">PADEL 
+            <input type="radio" name="deportes" id="deportes">TENIS 
+            <input type="radio" name="deportes" id="deportes">SQUASH 
+            <input type="radio" name="deportes" id="deportes">BASQUET 
+            <label for="fechahora">Selecciona fehca y hora</label>
+            <input type="datetime-local" name="fechahora" id="fechahora">
+            <label for="nivel">Selecciona nivel</label>
+            <input type="radio" name="nivel" id="nivel">Alto 
+            <input type="radio" name="nivel" id="nivel">Medio 
+            <input type="radio" name="nivel" id="nivel">Bajo 
+            <label for="sexo">Selecciona sexo</label>
+            <input type="radio" name="sexo" id="sexo">Mixto 
+            <input type="radio" name="sexo" id="sexo">Femenino 
+            <input type="radio" name="sexo" id="sexo">Masculino 
+            <label for="njugadores">Selecciona N° de jugadores que podran unirse</label>
+            <select name="njugadores" id="njugadores">
+                <option value="op-2">2</option>
+                <option value="op-4">4</option>
+                <option value="op-10">10</option>
+                <option value="op-16">16</option>
+                <option value="op-22">22</option>
+                <option value="op-30">30</option>
+            </select>
+            <label for="costo">Valor a pagar por jugador</label>
+            <input type="number" name="costo" id="costo">
+    </section><!--Aqui termina EL FORMULARIO DE CREAR JUEGOS-->
+        <div class="crearjuegoboton">
+            <input type="button" value="CREAR JUEGO">
+        </div>
+    <footer class="footercrearjuegos">
+        <p class="footercrearjuegos__registrado"> &copy; WEGOPLAY Todos los derechos reservados 2021</p>
+        <nav class="footercrearjuegos__nav">
+            <ul class="footercrearjuegos__navul">
+                <li><a href="../index.html">INICIO</a></li>
+                <li><a href="#">CREAR JUEGOS</a></li>
+                <li><a href="../carpeta/unirte-a-juegos.html">UNIRTE A JUEGOS</a></li>
+                <li><a href="../carpeta/unirte-a-juegos.html">BUSCAR CLUBES</a></li>
+                <li><a href="../carpeta/crear-clubes.html">CREAR CLUBES</a></li>
+            </ul>
+        </nav>
+    </footer><!--Aqui termina el FOOTER-->
+</body>
+</html>
